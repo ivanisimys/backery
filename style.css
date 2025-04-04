@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Ponomar&display=swap');
+body{
+    background-color: #CFF27E;
+}
+header{
+    font-family: "Ponomar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    background-color: #B87D4B;
+    display: flex;
+    justify-content:center ;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.logo{
+    width:15%;
+    margin-right: 10px;
+}
+.product_image{
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transform: perspective(200px) rotateX(30deg);
+    transition: 0.5s;
+}
+.product_image:hover{
+    transform: perspective(200px) rotateX(0deg) scale(1.2);
+}
+.card{
+    display: flex;
+    margin-top: 30px;
+    font-family: "Ponomar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.subtitle{
+    font-family: "Ponomar", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: x-large;
+}
+.menu{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+.selected{
+    text-decoration: none;
+    background-color:#523A34 ;
+    color: #F2DD6E;
+    padding:3px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-right: 10px;
+    font-size: 30px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.selected:hover{
+    background-color:#F2DD6E ;
+    color: #523A34;
+}
+.noselected{
+    text-decoration: none;
+    background-color:#F2DD6E ;
+    color: #523A34;
+    padding:3px;
+    border-radius: 3px;
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.noselected:hover{
+    background-color:#523A34 ;
+    color: #F2DD6E;
+}
+.desc{
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
