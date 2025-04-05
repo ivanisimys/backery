@@ -25,7 +25,7 @@ header{
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 10px;
-    transform: perspective(200px) rotateX(30deg);
+    transform: perspective(30cm) rotateX(15deg) rotateY(20deg) rotateZ(-20deg);
     transition: 0.5s;
 }
 .product_image:hover{
@@ -37,6 +37,9 @@ header{
     font-family: "Ponomar", system-ui;
     font-weight: 400;
     font-style: normal;
+    background-color: #F2DD6E;
+    padding-bottom: 30px;
+    border-radius: 10px;
 }
 .subtitle{
     font-family: "Ponomar", system-ui;
@@ -86,4 +89,11 @@ header{
     font-family: "Bad Script", cursive;
     font-weight: 400;
     font-style: normal;
+}
+.text_box_product{
+    background-color: #E5B25D;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px;
 }
